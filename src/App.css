@@ -1,0 +1,297 @@
+* {
+  border: none;
+  margin: 0;
+  max-width: 360px;
+  padding: 0;
+}
+
+.root, body {
+  width: 360px;
+}
+
+.checked-ingredient {
+  text-decoration: line-through;
+}
+
+.ingredient-option {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.detail-body-header {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.start-recipe, .finish-recipe {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  text-align: center;
+  width: 150px;
+}
+
+button:disabled, button [ disabled ] {
+  border-radius: 4px;
+  color: #666;
+}
+
+/* @media screen and ( max-width : 360px ) and ( max-height : 640px ) {
+
+  * {
+    background-color: #fef1e0;
+    max-width: 360px;
+  }
+
+  div, .div-cards, .every-category-button, .every-card {
+    background-color: white;
+  }
+
+  .button-category {
+    border: 1px solid #341f06;
+    padding: px;
+  }
+
+  img {
+    background-color: #f9bd85;
+  }
+
+  .telaDeLogin {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .inputsLogin, .loginButton {
+    background-color: #fef1e0;
+    color: #341f06;
+  }
+
+  .email-input, .password-input {
+    border: 2px solid #341a05;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .login-button {
+    background-color: rgba(62, 218, 62, 0.63);
+    margin-top: 15px;
+    width: 200px;
+  }
+
+  .checked-ingredient {
+    text-decoration: line-through;
+  }
+
+  .meal-pic {
+    box-shadow: 10px 10px 10px;
+    display: flex;
+    width: 10%;
+  }
+
+  .profile {
+    background-color: #fef1e0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-buttons {
+    margin-top: 10px;
+  }
+
+  .email {
+    display: block;
+  }
+
+  .every-category-button {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 10px 10px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .div-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    max-width: 360px;
+  }
+
+  .eachFood {
+    align-content: space-between;
+    border: #ecdfdf1a;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    font-size: larger;
+    margin-bottom: 6px;
+    margin-top: 15px;
+    text-align: center;
+    width: 150px;
+  }
+
+  .foodImage {
+    margin-top: 20px;
+    width: 120px;
+  }
+
+  .titlelogin {
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .header-button {
+    background-color: #f9bd85;
+  }
+
+  .search-metods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .page-title {
+    background-color: #f9bd85;
+    font-size: xx-large;
+    margin-right: 15px;
+    margin-top: 5px;
+  }
+
+  .iconprofile {
+    align-items: baseline;
+    margin-right: 15px;
+    margin-top: 8px;
+  }
+
+  .header, .non-header {
+    align-content: center;
+    background-color: #f9bd85;
+    border-bottom: 3px solid #341a05;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .meal-img {
+    display: block;
+    margin: auto;
+    width: 300px;
+  }
+
+  .rocksGlass {
+    max-height: 80vh;
+  }
+
+  .explore-buttons {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    gap: 10px 10px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .explore-button {
+    background-color: #efefef;
+    box-shadow: 2px 2px black;
+    margin-right: 10px;
+    padding: 2px;
+  }
+
+  .three-explore-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 10px 10px;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .footer {
+    background-color: #f9bd85;
+    bottom: 0;
+    display: flex;
+    padding: 10px;
+    position: fixed;
+  }
+
+  .footerButtons {
+    background-color: #f9bd85;
+    border: none;
+    justify-content: space-evenly;
+    width: 120px;
+  }
+
+  .paragraph {
+    margin-bottom: 40px;
+  }
+
+  .detail-button {
+    border: 1px solid black;
+    margin-top: 5px;
+    max-height: 30px;
+    max-width: 32px;
+  }
+
+  .recipe-checkboxs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recipe-checkbox {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+  }
+
+  .recipe-input {
+    margin: 4px;
+  }
+
+  .non-risk {
+    text-decoration: none;
+  }
+
+  .risk {
+    text-decoration: line-through;
+  }
+
+  .recommend-card {
+    margin-left: 20px;
+  }
+
+  .carousel-card {
+    align-content: space-between;
+    border: #ecdfdf1a;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    margin: 15px;
+    margin-bottom: 40px;
+    overflow-x: scroll;
+    text-align: center;
+    width: 290px;
+  }
+} */

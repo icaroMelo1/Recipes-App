@@ -1,0 +1,33 @@
+* {
+  max-width: 360px;
+  text-align: center;
+}
+
+body {
+  background-color: #fdf0e1;
+}
+
+.telaDeLogin {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.inputsLogin, .loginButton {
+  background-color: #fef1e0;
+}
+
+.email-input, .password-input {
+  background-color: #fef1e0;
+  border: 2px solid #341a05;
+  margin-bottom: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.login-button {
+  background-color: rgba(62, 218, 62, 0.63);
+  border: none;
+  margin-top: 15px;
+  width: 200px;
+}
