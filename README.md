@@ -1,6 +1,6 @@
 # Recipes-App
 
-Projeto ealizado por 5 membros em 10 dias.
+Projeto realizado por 5 membros em 10 dias.
 ## Projeto realizado com as seguintes tecnologias:
   - Biblioteca React-Redux
   - Context API do React para gerenciar estado
